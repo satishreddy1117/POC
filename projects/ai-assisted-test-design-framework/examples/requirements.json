@@ -1,0 +1,10 @@
+[
+  {
+    "id": "REQ-101",
+    "text": "As a registered user, update a profile so that the new information is persisted and shown after refresh. The API must reject invalid email input."
+  },
+  {
+    "id": "REQ-102",
+    "text": "As an account administrator, submit a notification through an external service so that the request is accepted or retried safely when the dependency is unavailable."
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "id": "CR-1042",
+  "title": "Update account profile validation",
+  "businessCriticality": "high",
+  "dataSensitivity": "high",
+  "blastRadius": "wide",
+  "changeAreas": ["ui", "api", "data", "authentication"],
+  "externalDependency": true,
+  "userJourneyImpact": true,
+  "accessibilityImpact": true
+}

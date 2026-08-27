@@ -1,0 +1,26 @@
+[
+  {
+    "releaseId": "REL-2026-01",
+    "name": "Profile Service 2.4",
+    "signals": {
+      "functional": { "status": "pass", "note": "Critical journeys passed." },
+      "integration": { "status": "pass", "note": "Contract and retry suites passed." },
+      "security": { "status": "pass", "note": "No critical findings." },
+      "performance": { "status": "warn", "note": "p95 is within warning band." },
+      "observability": { "status": "pass", "note": "Logs and health checks are available." },
+      "data": { "status": "pass", "note": "Synthetic data policy passed." }
+    }
+  },
+  {
+    "releaseId": "REL-2026-02",
+    "name": "Notification Service 1.8",
+    "signals": {
+      "functional": { "status": "fail", "note": "A critical journey is failing." },
+      "integration": { "status": "warn", "note": "One dependency is unstable." },
+      "security": { "status": "pass", "note": "Security smoke passed." },
+      "performance": { "status": "pass", "note": "Load target met." },
+      "observability": { "status": "pass", "note": "Telemetry is available." },
+      "data": { "status": "pass", "note": "Test data checks passed." }
+    }
+  }
+]

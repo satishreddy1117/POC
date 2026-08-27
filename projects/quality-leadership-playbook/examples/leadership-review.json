@@ -1,0 +1,36 @@
+{
+  "decisions": [
+    {
+      "id": "DEC-001",
+      "decision": "Use risk-based regression for the next release",
+      "context": "The full suite exceeds the feedback budget while critical coverage is known.",
+      "owner": "Quality Engineering",
+      "decidedAt": "2026-01-10T00:00:00Z",
+      "reviewBy": "2026-02-10T00:00:00Z",
+      "actions": [
+        { "description": "Review suite selection thresholds", "owner": "Automation", "status": "open" }
+      ]
+    }
+  ],
+  "metrics": {
+    "passRate": 94,
+    "automationRate": 82,
+    "evidenceCompleteness": 96,
+    "escapedDefects": 1
+  },
+  "brief": {
+    "title": "Release quality decision brief",
+    "decision": "Proceed with a monitored release",
+    "audience": ["Product", "Engineering", "Quality Engineering", "Platform"],
+    "evidence": [
+      { "label": "Critical journeys", "status": "pass", "detail": "All selected journeys passed." },
+      { "label": "Pass rate", "status": "watch", "detail": "94%; below the preferred 95% threshold." }
+    ],
+    "risks": [
+      { "statement": "One non-critical defect remains open.", "owner": "Product", "treatment": "Track with a dated follow-up." }
+    ],
+    "asks": [
+      { "question": "Confirm post-release monitoring window.", "owner": "Platform", "due": "Before release" }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "leadership-qa-engineering-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Executable, generic quality engineering portfolio projects.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test",
+    "validate": "node scripts/validate.mjs",
+    "demo": "node scripts/demo.mjs",
+    "quality:gate": "node projects/autonomous-quality-engineering-platform/src/cli.mjs",
+    "api:lab": "node projects/enterprise-api-integration-quality-lab/src/demo.mjs",
+    "qe:operating-system": "node projects/quality-engineering-operating-system/src/cli.mjs",
+    "control-center": "node projects/release-confidence-control-center/src/server.mjs",
+    "performance:lab": "node projects/performance-and-observability-lab/src/demo.mjs",
+    "test-design": "node projects/ai-assisted-test-design-framework/src/cli.mjs",
+    "test-data": "node projects/enterprise-test-data-governance-lab/src/cli.mjs",
+    "leadership:playbook": "node projects/quality-leadership-playbook/src/demo.mjs"
+  }
+}

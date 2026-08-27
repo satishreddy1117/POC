@@ -1,0 +1,8 @@
+{
+  "plannedTests": 120,
+  "automatedTests": 102,
+  "executedTests": 116,
+  "passedTests": 113,
+  "defects": { "escaped": 1, "total": 8 },
+  "evidence": { "required": 20, "complete": 19 }
+}

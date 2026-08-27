@@ -1,0 +1,6 @@
+{
+  "syntheticOnly": true,
+  "environment": "test",
+  "retentionDays": 30,
+  "reservedEmailDomain": "example.test"
+}

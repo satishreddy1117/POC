@@ -1,0 +1,20 @@
+{
+  "releaseId": "REL-2026-01",
+  "riskLevel": "high",
+  "criticalJourneys": ["sign-in", "profile update", "transaction confirmation"],
+  "evidence": {
+    "functional": true,
+    "api": true,
+    "data": true,
+    "accessibility": true,
+    "observability": true
+  },
+  "waivers": [
+    {
+      "id": "WVR-01",
+      "reason": "Non-critical browser matrix gap",
+      "owner": "Quality Engineering",
+      "expiresAt": "2026-02-01T00:00:00Z"
+    }
+  ]
+}

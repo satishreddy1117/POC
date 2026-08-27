@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Release Confidence Control Center</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">QUALITY ENGINEERING / RELEASE GOVERNANCE</p>
+          <h1>Release Confidence<br /><span>Control Center</span></h1>
+          <p class="lede">A transparent release decision built from evidence, not intuition.</p>
+        </div>
+        <div class="pulse"><span></span> Live decision model</div>
+      </header>
+      <section id="summary" class="summary-grid" aria-label="Release summary"></section>
+      <section>
+        <div class="section-heading"><div><p class="eyebrow">DECISION REGISTER</p><h2>Release candidates</h2></div><p id="updated" class="muted"></p></div>
+        <div id="releases" class="release-grid"></div>
+      </section>
+    </main>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

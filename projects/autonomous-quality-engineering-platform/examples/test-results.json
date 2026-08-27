@@ -1,0 +1,11 @@
+{
+  "coverage": 0.94,
+  "tests": [
+    { "id": "unit-profile-validation", "status": "passed", "severity": "major", "durationMs": 900 },
+    { "id": "api-profile-contract", "status": "passed", "severity": "critical", "durationMs": 1200 },
+    { "id": "profile-update-journey", "status": "passed", "severity": "critical", "durationMs": 4200 },
+    { "id": "masked-data-check", "status": "passed", "severity": "major", "durationMs": 700 },
+    { "id": "token-expiry", "status": "passed", "severity": "major", "durationMs": 800 },
+    { "id": "accessibility-profile-form", "status": "passed", "severity": "major", "durationMs": 1800 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "events": [
+    { "traceId": "trace-1", "component": "gateway", "durationMs": 120, "statusCode": 200, "saturation": 0.42 },
+    { "traceId": "trace-2", "component": "gateway", "durationMs": 150, "statusCode": 200, "saturation": 0.48 },
+    { "traceId": "trace-3", "component": "workflow-service", "durationMs": 820, "statusCode": 200, "saturation": 0.76 },
+    { "traceId": "trace-4", "component": "workflow-service", "durationMs": 1100, "statusCode": 200, "saturation": 0.91 },
+    { "traceId": "trace-5", "component": "workflow-service", "durationMs": 1400, "statusCode": 503, "saturation": 0.94 },
+    { "traceId": "trace-6", "component": "data-service", "durationMs": 450, "statusCode": 200, "saturation": 0.62 },
+    { "traceId": "trace-7", "component": "data-service", "durationMs": 490, "statusCode": 200, "saturation": 0.65 }
+  ]
+}
