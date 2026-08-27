@@ -1,6 +1,4 @@
-# Leadership QA Engineering Portfolio
 
-An executable portfolio of generic quality engineering systems for enterprise software teams.
 
 This repository demonstrates how to turn quality strategy into repeatable engineering controls:
 
@@ -13,7 +11,7 @@ This repository demonstrates how to turn quality strategy into repeatable engine
 - synthetic data, masking, and test-data governance
 - reusable leadership playbooks and decision templates
 
-All examples use fictional systems and synthetic data. There are no client names, production details, internal tickets, or confidential artifacts in this repository.
+
 
 ## Portfolio map
 
